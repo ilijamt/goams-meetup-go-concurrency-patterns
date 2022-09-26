@@ -1,0 +1,26 @@
+goos: windows
+goarch: amd64
+pkg: gocp
+cpu: AMD Ryzen 9 5950X 16-Core Processor            
+BenchmarkAtomic_AddInt64-32            	719278706	         1.645 ns/op
+BenchmarkAtomic_AddInt64-32            	727191633	         1.642 ns/op
+BenchmarkAtomic_AddInt64-32            	737360262	         1.638 ns/op
+BenchmarkAtomic_AddInt64-32            	729791169	         1.656 ns/op
+BenchmarkAtomic_AddInt64-32            	721780632	         1.654 ns/op
+Benchmark_Int64_Buffered_Channel-32    	55782559	        20.29 ns/op
+Benchmark_Int64_Buffered_Channel-32    	59978707	        20.19 ns/op
+Benchmark_Int64_Buffered_Channel-32    	57131158	        20.52 ns/op
+Benchmark_Int64_Buffered_Channel-32    	57130614	        20.13 ns/op
+Benchmark_Int64_Buffered_Channel-32    	57124359	        20.18 ns/op
+Benchmark_Int64_Mutex-32               	315538702	         3.802 ns/op
+Benchmark_Int64_Mutex-32               	318015751	         3.747 ns/op
+Benchmark_Int64_Mutex-32               	316530738	         3.841 ns/op
+Benchmark_Int64_Mutex-32               	307976751	         3.908 ns/op
+Benchmark_Int64_Mutex-32               	306372470	         3.888 ns/op
+Benchmark_Int64_NoSync-32              	1000000000	         0.2276 ns/op
+Benchmark_Int64_NoSync-32              	1000000000	         0.2247 ns/op
+Benchmark_Int64_NoSync-32              	1000000000	         0.2256 ns/op
+Benchmark_Int64_NoSync-32              	1000000000	         0.2256 ns/op
+Benchmark_Int64_NoSync-32              	1000000000	         0.2281 ns/op
+PASS
+ok  	gocp	24.988s
