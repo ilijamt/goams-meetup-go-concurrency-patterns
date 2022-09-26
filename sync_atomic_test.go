@@ -1,4 +1,4 @@
-package gocp_test
+package main
 
 import (
 	"sync/atomic"
